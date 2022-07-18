@@ -1,8 +1,12 @@
 import React from 'react'
+import { FeaturedProducts, Hero } from '../components'
 
 const HomePage = () => {
   return (
-    <div>HomePage</div>
+    <main>
+      <Hero/>
+      <FeaturedProducts/>
+    </main>
   )
 }
 
