@@ -18,7 +18,6 @@ root.render(
            <App />
         </CartProvider>
         </FilterProvider>
-      
       </ProductsProvider>
     </UserProvider>
   </React.StrictMode>
