@@ -74,7 +74,7 @@ import {
         
         if (text) {
             tempProducts = tempProducts.filter((product) => {
-                return product.name.toLowercase().startWith(text)
+                return product.name.toLowerCase().startsWith(text)
             })
         } 
         if (category !== 'all') {

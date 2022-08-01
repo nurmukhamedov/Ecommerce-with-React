@@ -57,7 +57,7 @@ export const FilterProvider = ({children}) => {
      }
      
      const updateFilters = (e) => {
-      let name = e.target.value
+      let name = e.target.name
       let value = e.target.value
       if ( name=== 'category') {
         value = e.target.textContent
@@ -71,7 +71,7 @@ export const FilterProvider = ({children}) => {
      if (name === 'shipping') {
       value = e.target.checked
      }
-     dispatch({type: updateFilters, payload: {name, value}})
+     dispatch({type: UPDATE_FILTERS, payload: {name, value}})
     }
      
     const clearFilters = () => {
