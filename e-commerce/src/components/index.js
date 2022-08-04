@@ -20,6 +20,7 @@ import Sort from './Sort';
 import ProductList from './ProductList';
 import GridView from './GridView';
 import ListView from './ListView';
+ 
 
 export {
     Navbar,
